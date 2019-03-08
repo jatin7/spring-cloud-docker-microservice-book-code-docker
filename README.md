@@ -1,51 +1,44 @@
 # 《Spring Cloud与Docker微服务架构实战 第二版》Docker章节（12-14章）配套代码
 
-- 本Repo是《Spring Cloud与Docker微服务架构实战 **第二版**》Docker章节（12-14章）的配套代码，**第一版**的配套源码详见Camden分支。
-- 所有Docker Compose采用Version 3 file format编写。
-- 1-11章配套代码详见：<http://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code>
+- This Repo is "Spring Cloud and Docker micro Services Architecture combat the second edition of " Docker chapters (Chapters 12-14) supporting the code, the first edition of matching source See Camden branch.
+
+- ll Docker Compose is written in the Version 3 file format.
+- Chapter 1-11 package code can be found at: http://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code
+
+
+## communicate with
+
+
+- QQ group: 731548893, welcome to join
+- 个Personal blog: http://www.itmuch.com
+- WeChat:![微信公众号](wx.jpg)
+
+
+
+**Keep updating Spring Cloud and Docker related knowledge** , so stay tuned! !
 
 
 
 
-## 交流
-
-- QQ群：731548893，欢迎加入
-- 个人博客：[http://www.itmuch.com](http://www.itmuch.com)
-- 微信：![微信公众号](wx.jpg)
 
 
-**持续更新Spring Cloud、Docker相关知识**，敬请关注！！
+Directory description
 
+**docker-1-simple**
+Build a Docker image using Maven's Docker plugin. See the microservice-discovery-eureka directory for details.
+Use the Docker Compose to orchestrate the Spring Cloud microservices.
 
+**Two, docker-2-eureka-ha**
+Orchestrate highly available Eureka Server with Docker Compose
 
+**docker-3-complex**
+For a comprehensive example, use Docker Compose to orchestrate the Spring Cloud microservices system and implement dynamic scaling.
 
-## 目录说明
+**Fourth, docker-host**
+Use the Docker Compose to orchestrate the Spring Cloud microservices, using the host network mode. This method is not suitable for production, nor is it written in the physical book. For reference only, play.
 
-#### 一、docker-1-simple
-
-* 使用Maven的Docker插件构建Docker镜像。详见其中的microservice-discovery-eureka目录。
-* 使用Docker Compose编排Spring Cloud微服务。
-
-
-
-#### 二、docker-2-eureka-ha
-
-* 使用Docker Compose编排高可用的Eureka Server
-
-
-
-####  三、docker-3-complex
-
-* 综合示例，使用Docker Compose编排Spring Cloud微服务体系，并实现动态伸缩。
-
-
-#### 四、docker-host
-
-使用Docker Compose编排Spring Cloud微服务，使用host网络模式。该方式不适合生产，实体书里也没写。仅供参考、把玩。
-
-#### 五、ELK
-
-在第十一章用到ELK，考虑到对ELK不熟悉的朋友们，提供ELK的Compose文件。
+**Five, ELK**
+In the eleventh chapter, ELK is used. Considering friends who are not familiar with ELK, ELK Compose files are provided.
 
 
 
